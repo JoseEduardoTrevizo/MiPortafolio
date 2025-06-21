@@ -1,9 +1,9 @@
 import React from "react";
-import around from "../../Images/around.png";
-import coffe from "../../Images/coffe.png";
-import patria from "../../Images/patria.png";
-import library from "../../Images/library.png";
-import web_art from "../../Images/web_art.png";
+import around from "../../images/around.png";
+import coffe from "../../images/coffe.png";
+import patria from "../../images/patria.png";
+import library from "../../images/library.png";
+import web_art from "../../images/web_art.png";
 
 export default function Portafolio() {
   return (
