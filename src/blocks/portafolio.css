@@ -114,7 +114,7 @@
   margin-bottom: auto;
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 460px) {
   .projects {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -150,7 +150,7 @@
     width: 270px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 461px) and (max-width: 900px) {
   .projects {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
