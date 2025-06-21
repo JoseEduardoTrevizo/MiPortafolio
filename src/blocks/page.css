@@ -5,6 +5,8 @@
 .container {
   min-height: 400px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 body {

@@ -59,6 +59,7 @@
   }
   .header .logo {
     margin: auto;
+    padding-top: 10px;
   }
   .header .logo span {
     font-size: 60px;
