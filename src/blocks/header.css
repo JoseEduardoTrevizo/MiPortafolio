@@ -57,6 +57,9 @@
   .header li {
     font-size: 10px;
   }
+  .header .logo {
+    margin: auto;
+  }
   .header .logo span {
     font-size: 60px;
   }

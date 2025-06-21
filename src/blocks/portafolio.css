@@ -120,6 +120,10 @@
     grid-template-rows: repeat(5, 1fr);
     padding: 0px;
   }
+
+  .projects_container {
+    width: 250px;
+  }
   .description_around {
     margin: 0;
     width: 270px;
