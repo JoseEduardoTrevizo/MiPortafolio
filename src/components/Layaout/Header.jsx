@@ -13,7 +13,7 @@ export default function Header() {
         <ul>
           <li>
             <NavLink
-              to="/inicio"
+              to="/MiPortafolio/inicio"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
               Inicio
@@ -22,7 +22,7 @@ export default function Header() {
 
           <li>
             <NavLink
-              to="/portafolio"
+              to="/MiPortafolio/portafolio"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
               Portafolio
@@ -30,7 +30,7 @@ export default function Header() {
           </li>
           <li>
             <NavLink
-              to="/curriculum"
+              to="/MiPortafolio/curriculum"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
               Resume
