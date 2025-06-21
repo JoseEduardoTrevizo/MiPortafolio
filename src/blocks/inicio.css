@@ -1,0 +1,210 @@
+.skills_container {
+  margin: auto;
+  padding-top: 35px;
+  width: 800px;
+  justify-content: center;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "img1 img2 img3 img4"
+    "img5 img6 img7 img8"
+    "img9 img10 img11 . ";
+}
+.html {
+  grid-area: img1;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  filter: invert(42%) sepia(48%) saturate(5324%) hue-rotate(350deg)
+    brightness(95%) contrast(87%);
+  transition: 0.25s;
+}
+.html:hover {
+  transform: scale(1.05);
+  filter: invert(42%) sepia(48%) saturate(5324%) hue-rotate(350deg)
+    brightness(95%) contrast(87%) drop-shadow(0 0 10px #e34f26);
+}
+.css {
+  grid-area: img2;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  filter: invert(32%) sepia(70%) saturate(1022%) hue-rotate(173deg)
+    brightness(98%) contrast(96%);
+  transition: 0.25s;
+}
+.css:hover {
+  transform: scale(1.05);
+  filter: invert(32%) sepia(70%) saturate(1022%) hue-rotate(173deg)
+    brightness(98%) contrast(96%) drop-shadow(0 0 10px #264de4);
+}
+.javaScript {
+  grid-area: img3;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  filter: invert(94%) sepia(41%) saturate(5884%) hue-rotate(339deg)
+    brightness(101%) contrast(94%);
+  transition: 0.25s;
+}
+.javaScript:hover {
+  transform: scale(1.05);
+  filter: invert(94%) sepia(41%) saturate(5884%) hue-rotate(339deg)
+    brightness(101%) contrast(94%) drop-shadow(0 0 10px #f7df1e);
+}
+.react {
+  grid-area: img4;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  filter: invert(75%) sepia(13%) saturate(1901%) hue-rotate(160deg)
+    brightness(103%) contrast(97%);
+  transition: 0.25s;
+}
+.react:hover {
+  transform: scale(1.05);
+  filter: invert(75%) sepia(13%) saturate(1901%) hue-rotate(160deg)
+    brightness(103%) contrast(97%) drop-shadow(0 0 10px #00d8ff);
+}
+.vite {
+  grid-area: img5;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  transition: 0.25s;
+}
+.vite:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 10px #ffc8dd);
+}
+.git {
+  grid-area: img6;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  filter: invert(73%) sepia(94%) saturate(6258%) hue-rotate(344deg)
+    brightness(98%) contrast(91%);
+  transition: 0.25s;
+}
+.git:hover {
+  transform: scale(1.05);
+  filter: invert(73%) sepia(94%) saturate(6258%) hue-rotate(344deg)
+    brightness(98%) contrast(91%) drop-shadow(0 0 10px #e24329);
+}
+.gitHub {
+  grid-area: img7;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  transition: 0.25s;
+}
+.gitHub:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 10px black);
+}
+.postman {
+  grid-area: img8;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  filter: invert(46%) sepia(64%) saturate(747%) hue-rotate(331deg)
+    brightness(103%) contrast(101%);
+  transition: 0.25s;
+}
+.postman:hover {
+  transform: scale(1.05);
+  filter: invert(46%) sepia(64%) saturate(747%) hue-rotate(331deg)
+    brightness(103%) contrast(101%) drop-shadow(0 0 10px #ef5b25);
+}
+.spring {
+  grid-area: img9;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  filter: invert(62%) sepia(57%) saturate(472%) hue-rotate(53deg)
+    brightness(90%) contrast(88%);
+  transition: 0.25s;
+}
+.spring:hover {
+  transform: scale(1.05);
+  filter: invert(62%) sepia(57%) saturate(472%) hue-rotate(53deg)
+    brightness(90%) contrast(88%) drop-shadow(0 0 10px #6db33f);
+}
+.java {
+  grid-area: img10;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  transition: 0.25s;
+}
+.java:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 10px #007396);
+}
+.mysql {
+  grid-area: img11;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  transition: 0.25s;
+}
+.mysql:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 10px #00758f);
+}
+.home h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 45px;
+  text-align: justify;
+  margin-bottom: 0px;
+}
+
+.home h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: justify;
+  margin-bottom: 0px;
+}
+.home strong {
+  color: #535bf2;
+}
+.skills_title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 45px;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 340px) {
+  .container {
+    max-width: 350px;
+  }
+  .home h1 {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .home h2 {
+    font-size: 15px;
+  }
+  .skills_title {
+    font-size: 25px;
+  }
+  .skills_container {
+    width: 280px;
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+      "img1 img2"
+      "img3 img4"
+      "img5 img6"
+      "img7 img8"
+      "img9 img10"
+      "img11 .";
+  }
+}

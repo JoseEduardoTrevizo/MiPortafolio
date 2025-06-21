@@ -1,0 +1,12 @@
+@import url("./blocks/page.css");
+@import url("./blocks/header.css");
+@import url("./blocks/footer.css");
+@import url("./blocks/inicio.css");
+@import url("./blocks/resume.css");
+@import url("./blocks/contacto.css");
+@import url("./blocks/portafolio.css");
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}

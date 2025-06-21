@@ -1,0 +1,42 @@
+.page_contact {
+  display: block;
+}
+.title_contact {
+  display: flex;
+  margin: auto;
+  width: 280px;
+  justify-content: center;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+}
+input[type="text"],
+textarea {
+  display: flex;
+  padding: 15px;
+  width: 400px;
+  margin-top: 25px;
+  margin: 25px auto 0;
+}
+textarea {
+  height: 150px;
+}
+input[type="submit"],
+button {
+  display: flex;
+  margin: 25px auto 0;
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  color: aliceblue;
+  background-color: #535bf2;
+}
+.button_send:hover {
+  background-color: #3d44c8;
+  cursor: pointer;
+  transition: 300ms;
+}
