@@ -22,7 +22,10 @@ export default function Rutas() {
       <section className="container">
         <Routes>
           <Route path="/" element={<Navigate to="/inicio" />} />
-          <Route path="/MiPortafolio" element={<Navigate to="/inicio" />} />
+          <Route
+            path="/MiPortafolio"
+            element={<Navigate to="/MiPortafolio/inicio" />}
+          />
           <Route path="/MiPortafolio/inicio" element={<Inicio />} />
           <Route path="/MiPortafolio/portafolio" element={<Portafolio />} />
           <Route path="/MiPortafolio/servicios" element={<Servicios />} />
