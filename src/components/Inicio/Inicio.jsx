@@ -16,17 +16,18 @@ export default function Inicio() {
     <div className="home">
       <h1>
         Hola a todos, soy Eduardo Trevizo de Chihuahua, Mexico. Soy{" "}
-        <strong>Ingeniero</strong> Mecatronico con gusto por la programacion,
-        ademas de mi formacion en ingenieria me forme como{" "}
-        <strong>desarrollador Web.</strong>
+        <strong>Ingeniero</strong> Mecatronico y más allá de la automatización,
+        me impulsa la creación de soluciones digitales funcionales, eficientes y
+        centradas en el usuarioa.
       </h1>
       <h2>
-        Sigo desarrollando mis habilidades en programcion utilizando
-        herramientas como <strong>React</strong> y un poco de{" "}
-        <strong>MySQL.</strong> Ademas tengo un gusto por la filosofia
-        especialmente en el Estoicismo y trato de aplicarla a mi dia a dia.
+        Guiado por los principios del estoicismo{" "}
+        <strong>Justicia, Templanza y Valentia </strong>
+        he completado mi formación como desarrollador web, utilizando
+        herramientas como <strong>React</strong> para construir interfaces
+        modernas y <strong>MySQL</strong> para el manejo estructurado de datos.
       </h2>
-      <h3 className="skills_title">Mis habilidades</h3>
+      <h3 className="skills_title">Habilidades</h3>
       <section className="skills_container">
         <img className="html" src={html} />
         <img className="css" src={css} />

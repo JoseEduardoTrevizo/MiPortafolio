@@ -155,7 +155,7 @@
   filter: drop-shadow(0 0 10px #00758f);
 }
 .home h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: sans-serif, "Times New Roman", Times, serif;
   font-weight: 400;
   font-size: 45px;
   text-align: justify;
@@ -163,7 +163,7 @@
 }
 
 .home h2 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: sans-serif, "Times New Roman", Times, serif;
   font-weight: 400;
   font-size: 30px;
   text-align: justify;
@@ -171,9 +171,10 @@
 }
 .home strong {
   color: #535bf2;
+  font-style: italic;
 }
 .skills_title {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: sans-serif, "Times New Roman", Times, serif;
   font-weight: 400;
   font-size: 45px;
   justify-content: center;
